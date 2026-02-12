@@ -1,6 +1,6 @@
-# 🚀 Min Praktik Logbog
+# ᯤ Min Praktik Logbog ᯤ
 
-Her dokumenterer jeg min rejse som selvstændig. Klik på ugerne for at se detaljerne.
+Her dokumenterer jeg mit praktikprojekt. Klik på ugerne for at se detaljerne.
 
 <br>
 
