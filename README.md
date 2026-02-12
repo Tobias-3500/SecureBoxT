@@ -1,11 +1,84 @@
-# Min Praktik Logbog
+<style>
+/* Fjerner den grimme standard trekant */
+details > summary {
+  list-style: none;
+}
+details > summary::-webkit-details-marker {
+  display: none;
+}
 
-Her kan du følge med i min progression uge for uge. Klik på pilene for at se detaljerne for de enkelte uger.
+/* Designet af selve boksen */
+details {
+  border: 1px solid #e1e4e8;
+  border-radius: 8px;
+  padding: 0;
+  margin-bottom: 20px;
+  background: #ffffff;
+  box-shadow: 0 3px 6px rgba(0,0,0,0.05); /* En lille lækker skygge */
+  overflow: hidden;
+  transition: all 0.3s ease;
+}
+
+/* Når man holder musen over */
+details:hover {
+  box-shadow: 0 6px 12px rgba(0,0,0,0.1);
+  transform: translateY(-2px); /* Løfter boksen en lille smule */
+}
+
+/* Designet af overskriften (Knappen) */
+summary {
+  background-color: #f6f8fa;
+  padding: 15px 20px;
+  cursor: pointer;
+  font-weight: bold;
+  font-size: 1.2em;
+  color: #24292e;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+summary:hover {
+  background-color: #e1e4e8; /* Mørkere når man peger */
+}
+
+/* Indholdet (Teksten) */
+.content {
+  padding: 20px;
+  border-top: 1px solid #e1e4e8;
+  background-color: #fff;
+}
+
+/* Det lille plus/minus ikon ude til højre */
+summary::after {
+  content: '+'; 
+  font-size: 1.5em;
+  font-weight: bold;
+  color: #0366d6;
+  transition: transform 0.2s;
+}
+
+/* Når boksen er åben, skift plus til minus */
+details[open] summary::after {
+  content: '-';
+  color: #d73a49;
+}
+details[open] summary {
+  background-color: #f1f8ff; /* Lys blå baggrund når åben */
+  border-bottom: 1px solid #c8e1ff;
+}
+</style>
+
+# 🚀 Min Praktik Logbog
+
+Her dokumenterer jeg min rejse som selvstændig. Klik på ugerne for at se detaljerne.
 
 <br>
 
-<details open markdown="1">
-<summary>📅 Uge 3 (Klik for at lukke)</summary>
+<details open>
+<summary>📅 Uge 3: Sikkerhed & Overvågning</summary>
+<div class="content" markdown="1">
 
 **Fokus:** Sikkerhedsopgradering, privatlivs-implementering (DNS/Adblock) og netværksovervågning.
 
@@ -29,12 +102,12 @@ Her kan du følge med i min progression uge for uge. Klik på pilene for at se d
 ### **Torsdag**
 **Overvågning.** Opsatte værktøjer til analyse af netværkstrafik på routeren for at kunne monitorere dataflow og ydeevne i realtid.
 
+</div>
 </details>
 
-<br>
-
-<details markdown="1">
-<summary>📅 Uge 2 (Klik for at åbne)</summary>
+<details>
+<summary>📅 Uge 2: Analyse & Aftaler</summary>
+<div class="content" markdown="1">
 
 **Fokus:** Konkurrentanalyse, forretningsaftaler og avanceret netværkskonfiguration.
 
@@ -63,12 +136,12 @@ Her kan du følge med i min progression uge for uge. Klik på pilene for at se d
 ### **Fredag**
 **Status & Sikring.** Afholdt møde med mentor og gennemgik projektets status. Implementerede feedback i projektplanen (herunder tilføjelse af Wireguard VPN). Sikrede desuden systemet ved at lave et fuldt backup-image.
 
+</div>
 </details>
 
-<br>
-
-<details markdown="1">
-<summary>📅 Uge 1 (Klik for at åbne)</summary>
+<details>
+<summary>📅 Uge 1: Opstart & Setup</summary>
+<div class="content" markdown="1">
 
 **Fokus:** Administrativ opstart, systemetablering og grundlæggende netværksarkitektur.
 
@@ -100,4 +173,5 @@ Her kan du følge med i min progression uge for uge. Klik på pilene for at se d
 ### **Fredag**
 **VLAN & Fejlfinding.** Arbejdede med opsætning af VLANs (Virtual LANs) for at segmentere netværket, samt fejlfinding på konfigurationen.
 
+</div>
 </details>
