@@ -49,3 +49,31 @@
 
 ### **Torsdag**
 **Port-konfiguration.** Konfigurerede de fysiske porte på Raspberry Pi-enheden og udførte fejlfinding på systemet.
+
+---
+
+### **Fredag**
+**Status & Sikring.** Afholdt møde med mentor og gennemgik projektets status. Implementerede feedback i projektplanen (herunder tilføjelse af Wireguard VPN). Sikrede desuden systemet ved at lave et fuldt backup-image.
+
+## 📅 Uge 3
+**Fokus:** Sikkerhedsopgradering, privatlivs-implementering (DNS/Adblock) og netværksovervågning.
+
+---
+
+### **Mandag**
+**Research & Analyse.** Fortsatte arbejdet med konkurrentanalysen. Fordybede mig desuden i teknisk dokumentation for kommende implementeringer: Wireguard, OISD adblock og DNS over HTTPS.
+
+---
+
+### **Tirsdag**
+**Sikkerhed & Segmentering.** Færdiggjorde konfigurationen af firewall-regler og VLAN-segmentering for at sikre netværkets integritet.
+
+---
+
+### **Onsdag**
+**Privatliv & Filtrering.** Implementerede OISD adblocker på netværksniveau for at fjerne reklamer og tracking, samt opsatte krypteret DNS (DNS over HTTPS).
+
+---
+
+### **Torsdag**
+**Overvågning.** Opsatte værktøjer til analyse af netværkstrafik på routeren for at kunne monitorere dataflow og ydeevne i realtid.
