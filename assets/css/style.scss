@@ -3,7 +3,30 @@
 
 @import "{{ site.theme }}";
 
-/* HER ER VORES CUSTOM DESIGN */
+/* --- GEMINI DARK MODE THEME --- */
+
+/* Hele sidens baggrund og tekst */
+body {
+  background-color: #131314; /* Den mørke Gemini baggrund */
+  color: #e3e3e3; /* Blød hvid tekst */
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/* Overskrifter */
+h1, h2, h3, h4, h5, h6 {
+  color: #ffffff; /* Helt hvid for kontrast */
+}
+
+/* Links */
+a {
+  color: #8ab4f8; /* Gemini blå til links */
+  text-decoration: none;
+}
+a:hover {
+  text-decoration: underline;
+}
+
+/* --- ACCORDION DESIGN (BOKSENE) --- */
 
 /* Fjerner den grimme standard trekant */
 details > summary {
@@ -13,64 +36,80 @@ details > summary::-webkit-details-marker {
   display: none;
 }
 
-/* Designet af selve boksen */
+/* Designet af selve boksen (Lukket tilstand) */
 details {
-  border: 1px solid #e1e4e8;
-  border-radius: 8px;
+  border: 1px solid #444746; /* Mørkegrå kant */
+  border-radius: 12px; /* Mere runde hjørner som Gemini */
   padding: 0;
   margin-bottom: 20px;
-  background: #ffffff;
-  box-shadow: 0 3px 6px rgba(0,0,0,0.05);
+  background: #1e1f20; /* Lidt lysere end baggrunden */
+  box-shadow: 0 4px 6px rgba(0,0,0,0.3);
   overflow: hidden;
   transition: all 0.3s ease;
 }
 
-/* Når man holder musen over */
+/* Når man holder musen over boksen */
 details:hover {
-  box-shadow: 0 6px 12px rgba(0,0,0,0.1);
+  box-shadow: 0 8px 15px rgba(0,0,0,0.5);
+  border-color: #8ab4f8; /* Lyser blåt op i kanten ved hover */
   transform: translateY(-2px);
 }
 
-/* Designet af overskriften (Knappen) */
+/* Designet af overskriften (Knappen du klikker på) */
 summary {
-  background-color: #f6f8fa;
-  padding: 15px 20px;
+  background-color: #1e1f20;
+  padding: 18px 24px;
   cursor: pointer;
-  font-weight: bold;
-  font-size: 1.2em;
-  color: #24292e;
+  font-weight: 600;
+  font-size: 1.1em;
+  color: #e3e3e3;
   position: relative;
   display: flex;
   align-items: center;
   justify-content: space-between;
+  user-select: none;
 }
 
+/* Når man peger på knappen */
 summary:hover {
-  background-color: #e1e4e8;
+  background-color: #2b2d30; /* Lidt lysere highlight */
 }
 
-/* Indholdet (Teksten) */
+/* Indholdet (Den tekst der folder ud) */
 .content {
-  padding: 20px;
-  border-top: 1px solid #e1e4e8;
-  background-color: #fff;
+  padding: 24px;
+  border-top: 1px solid #444746;
+  background-color: #1e1f20; /* Samme farve som headeren */
+  color: #c4c7c5; /* Lidt mere dæmpet tekst inde i boksen */
+  line-height: 1.6;
 }
 
-/* Det lille plus/minus ikon ude til højre */
+/* Det lille ikon ude til højre */
 summary::after {
-  content: '+'; 
-  font-size: 1.5em;
-  font-weight: bold;
-  color: #0366d6;
-  transition: transform 0.2s;
+  content: 'expand_more'; /* Bruger tekst som ikon hvis font mangler, ellers pil */
+  content: '▼'; 
+  font-size: 1em;
+  color: #8ab4f8;
+  transition: transform 0.3s ease;
 }
 
-/* Når boksen er åben, skift plus til minus */
-details[open] summary::after {
-  content: '-';
-  color: #d73a49;
-}
+/* Når boksen er åben */
 details[open] summary {
-  background-color: #f1f8ff;
-  border-bottom: 1px solid #c8e1ff;
+  background-color: #2b2d30;
+  border-bottom: 1px solid #444746;
+  color: #8ab4f8; /* Teksten bliver blå når den er åben */
+}
+
+/* Drej pilen når den er åben */
+details[open] summary::after {
+  transform: rotate(180deg);
+  color: #8ab4f8;
+}
+
+/* Fix af kodeblokke (hvis du har kode i din tekst) */
+code, pre {
+  background-color: #2b2d30;
+  color: #e3e3e3;
+  border: none;
+  border-radius: 4px;
 }
