@@ -4,9 +4,8 @@ Her kan du følge med i min progression uge for uge. Klik på pilene for at se d
 
 <br>
 
-<details open>
-<summary><h2>📅 Uge 3 (Klik for at lukke)</h2></summary>
-<br>
+<details open markdown="1">
+<summary>📅 Uge 3 (Klik for at lukke)</summary>
 
 **Fokus:** Sikkerhedsopgradering, privatlivs-implementering (DNS/Adblock) og netværksovervågning.
 
@@ -30,13 +29,12 @@ Her kan du følge med i min progression uge for uge. Klik på pilene for at se d
 ### **Torsdag**
 **Overvågning.** Opsatte værktøjer til analyse af netværkstrafik på routeren for at kunne monitorere dataflow og ydeevne i realtid.
 
-<br>
 </details>
 
 <br>
-<details>
-<summary><h2>📅 Uge 2 (Klik for at åbne)</h2></summary>
-<br>
+
+<details markdown="1">
+<summary>📅 Uge 2 (Klik for at åbne)</summary>
 
 **Fokus:** Konkurrentanalyse, forretningsaftaler og avanceret netværkskonfiguration.
 
@@ -65,13 +63,12 @@ Her kan du følge med i min progression uge for uge. Klik på pilene for at se d
 ### **Fredag**
 **Status & Sikring.** Afholdt møde med mentor og gennemgik projektets status. Implementerede feedback i projektplanen (herunder tilføjelse af Wireguard VPN). Sikrede desuden systemet ved at lave et fuldt backup-image.
 
-<br>
 </details>
 
 <br>
-<details>
-<summary><h2>📅 Uge 1 (Klik for at åbne)</h2></summary>
-<br>
+
+<details markdown="1">
+<summary>📅 Uge 1 (Klik for at åbne)</summary>
 
 **Fokus:** Administrativ opstart, systemetablering og grundlæggende netværksarkitektur.
 
@@ -84,6 +81,9 @@ Her kan du følge med i min progression uge for uge. Klik på pilene for at se d
 
 ### **Tirsdag**
 **Planlægning.** Udarbejdede netværksdiagram og indgik lejekontrakt med Boxen.
+
+**Netværksdiagram:**
+![Mit Netværksdiagram](diagram.png)
 
 ---
 
@@ -100,5 +100,4 @@ Her kan du følge med i min progression uge for uge. Klik på pilene for at se d
 ### **Fredag**
 **VLAN & Fejlfinding.** Arbejdede med opsætning af VLANs (Virtual LANs) for at segmentere netværket, samt fejlfinding på konfigurationen.
 
-<br>
 </details>
