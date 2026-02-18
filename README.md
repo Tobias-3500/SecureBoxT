@@ -5,6 +5,32 @@ Her dokumenterer jeg mit praktikprojekt. Klik på ugerne for at se detaljerne.
 <br>
 
 <details open>
+<summary>📅 Uge 4: Cloud Deployment & Udvikling</summary>
+<div class="content" markdown="1">
+
+**Fokus:** Etablering af cloud-infrastruktur, Docker-containerisering og databaseintegration.
+
+---
+
+### **Mandag**
+**Cloud Infrastruktur.** Oprettelse og konfiguration af en Ubuntu VM i cloud-miljøet til hosting af webserver og database. Implementerede firewall-regler (Security Groups) for at sikre serveren mod uautoriseret adgang.
+
+---
+
+### **Tirsdag**
+**Containerisering & Design.** Arbejdede med Docker for at containerisere hjemmesiden, hvilket sikrer en strømlinet og nem deployment til cloud. Udover det tekniske setup blev der arbejdet på brugerfladens design og arkitekturen for databasen.
+
+---
+
+### **Onsdag**
+**Backend & Sikkerhed.** Implementerede funktionalitet til dataindsættelse i databasen og integrerede sikker håndtering af brugerdata ved at hashe login-oplysninger. Afsluttede dagen med omfattende test af hjemmesidens kernefunktioner.
+
+---
+
+</div>
+</details>
+
+<details>
 <summary>📅 Uge 3: Sikkerhed & Overvågning</summary>
 <div class="content" markdown="1">
 
@@ -29,6 +55,11 @@ Her dokumenterer jeg mit praktikprojekt. Klik på ugerne for at se detaljerne.
 
 ### **Torsdag**
 **Overvågning.** Opsatte værktøjer til analyse af netværkstrafik på routeren for at kunne monitorere dataflow og ydeevne i realtid.
+
+---
+
+### **Fredag**
+**Møde & Dokumentation.** Skrev på dokumentation af projektet, og lavede backups af routeren. Fandt en cloud løsning til hjemmeside og Database med mentor.
 
 </div>
 </details>
