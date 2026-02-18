@@ -13,19 +13,17 @@ Her dokumenterer jeg mit praktikprojekt. Klik på ugerne for at se detaljerne.
 ---
 
 ### **Mandag**
-**Cloud Infrastruktur.** Oprettelse og konfiguration af en Ubuntu VM i cloud-miljøet til hosting af webserver og database. Implementerede firewall-regler (Security Groups) for at sikre serveren mod uautoriseret adgang.
+**Cloud Infrastruktur.** Oprettelse af Ubuntu VM i cloud til hosting af website og database, samt konfiguration af firewall.
 
 ---
 
 ### **Tirsdag**
-**Containerisering & Design.** Arbejdede med Docker for at containerisere hjemmesiden, hvilket sikrer en strømlinet og nem deployment til cloud. Udover det tekniske setup blev der arbejdet på brugerfladens design og arkitekturen for databasen.
+**Containerisering & Design.** Docker-containerisering af projektet for nem deployment, samt udarbejdelse af design og databasestruktur.
 
 ---
 
 ### **Onsdag**
-**Backend & Sikkerhed.** Implementerede funktionalitet til dataindsættelse i databasen og integrerede sikker håndtering af brugerdata ved at hashe login-oplysninger. Afsluttede dagen med omfattende test af hjemmesidens kernefunktioner.
-
----
+**Backend & Sikkerhed.** Implementering af databaseintegration, hashing af login-oplysninger og test af hjemmesidens funktioner.
 
 </div>
 </details>
